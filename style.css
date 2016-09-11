@@ -1,0 +1,33 @@
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font: 16px Verdana, Helvetica, Arial, sans-serif;
+	margin: 20px;
+	text-align: center;
+	background-color: #3d80f1;
+}
+
+header {
+	color: white;
+	font-size: 200%;
+	background-color: #d01d0d;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+div#A, div#B, div#C, div#D, div#E, div#F {
+	float: left;
+	position: relative;
+	color: #2d3bd0;
+	background-color: white;
+	border: 5px dotted #2d3bd0;
+	margin: 20px;
+	padding: 20px;
+}
